@@ -110,6 +110,9 @@
               "node_modules/apexcharts/dist/apexcharts.min.js"
             ]
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy"
         }
       }
     }
