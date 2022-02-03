@@ -1,0 +1,8 @@
+<div class="container">
+  <form class="reactive" (ngSubmit)="onSubmit()" [formGroup]="registerForm">
+    <h2>Find your GithubProfile</h2>
+    <input formControlName="user" type="text">
+    <p class="{{p_v}} {{p_error}}">¡Woops! Sorry, we couldn't find the username.</p>
+    <!-- <input type="submit" value=""> -->
+  </form>
+</div>
